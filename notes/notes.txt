@@ -1,0 +1,11 @@
+SELECT CONCAT( CAST( MONTH( case_date ) AS CHAR( 2 ) ) ,  '-', CAST( YEAR( case_date ) AS CHAR( 4 ) ) ) AS MonthYear
+FROM health_case
+WHERE MONTH( case_date ) 
+BETWEEN ( 5 ) 
+AND ( 8 ) 
+AND YEAR( case_date ) 
+BETWEEN ( 2014 ) 
+AND ( 2014 ) 
+GROUP BY CONCAT( CAST( MONTH( case_date ) AS CHAR( 2 ) ) ,  '-', CAST( YEAR( case_date ) AS CHAR( 4 ) ) ) 
+
+var deepJSON = "{\"ygs\":[{\"yg2014\":[{\"male\":\"5\",\"female\":\"4\",\"international\":\"0\"},{\"male\":\"12\",\"female\":\"0\",\"international\":\"1\"},{\"male\":\"5\",\"female\":\"13\",\"international\":\"1\"}]},{\"yg2015\":[{\"male\":\"7\",\"female\":\"1\",\"international\":\"4\"},{\"male\":\"5\",\"female\":\"6\",\"international\":\"1\"},{\"male\":\"5\",\"female\":\"13\",\"international\":\"1\"}]},{\"yg2016\":[{\"male\":\"5\",\"female\":\"13\",\"international\":\"4\"},{\"male\":\"12\",\"female\":\"0\",\"international\":\"1\"},{\"male\":\"9\",\"female\":\"78\",\"international\":\"1\"}]}]}"

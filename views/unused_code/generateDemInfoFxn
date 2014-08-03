@@ -1,0 +1,58 @@
+<?php
+// //$countData = array();
+
+						// $jsonDemInfo = "{\"countDemInfo\":[";
+						// $someCount = 0;
+						// while($yearGroup = mysql_fetch_assoc($year_group_results)){
+						// 	$currentYeargroup = $yearGroup['yeargroup'];
+
+						// 	//get all keys for male and females
+						// 	//put these keys in a set-like array 
+						// 	//each key holds an array of values
+
+
+						// 	$maleCount = $this->countMales($currentYeargroup);
+							
+						// 	//construct json string before u continue
+						// 	if ($maleCount != null){
+						// 		foreach($maleCount as $monthyear=>$count){
+						// 			// echo "Key: ".$monthyear." Value: ".$count;
+						// 			//maleValues:[{"key":"value"},{"key":"value"},{"key":"value"}]
+						// 			//$jsonDemInfo 
+						// 		}
+						// 	}
+
+						// 	$femaleCount = $this->countFemales($currentYeargroup);
+						// 	$mastercardCount = $this->countMasterCard($currentYeargroup);
+						// 	$internationalCount = $this->countInternationalStudents($currentYeargroup);
+						// 	$ghanaianCount = $this->countGhanaian($currentYeargroup);
+						// 	$maleFacultyCount = $this->countFacultyMale();
+						// 	$femaleFacultyCount = $this->countFacultyFemale();
+
+
+						// 	//echo "currentYearGrop ".$currentYeargroup;
+						// 	//echo "the male arr ".$maleCount;
+						// 	//echo "the female arr ".$femaleCount;
+						// 	//var_dump($maleCount);
+
+						// 	if ($someCount > 0){
+						// 		$jsonFormattedArray .= ",";
+						// 	}
+
+						// 	// $jsonFormattedArray .= "{\"yeargroup\":\"$currentYeargroup\",
+						// 	// 							 \"males\":\"$maleCount\",
+						// 	// 							 \"females\":\"$femaleCount\",
+						// 	// 							 \"mastercards\":\"$mastercardCount\",
+						// 	// 							 \"internationals\":\"$internationalCount\",
+						// 	// 							 \"ghanaians\":\"$ghanaianCount\",
+						// 	// 							 \"maleFaculties\":\"$maleFacultyCount\",
+						// 	// 							 \"femaleFaculties\":\"$femaleFacultyCount\"}";
+
+						// 	$someCount++;
+						// }
+
+						// $jsonFormattedArray .= "]}";
+
+						
+						//$json_Count = json_encode($countData);
+?>

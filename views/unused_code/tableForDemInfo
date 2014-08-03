@@ -1,0 +1,27 @@
+// for(var i=0;i<varJson.countBasedOnYeargroup.length;i++){
+								// 	bufferTables += "<h4 id='tableHeader"+i+"' class='span3 fg-color-black border-color-green' style='padding:10px;'>"+varJson.countBasedOnYeargroup[i].yeargroup+"Year Group</h4>"+
+								// 	"<table id='tablesOfCounts"+i+"'>"+
+								// 		"<thead>"+
+								// 			"<tr>"+
+								// 				"<th>Month-Year</th>"+
+								// 				"<th>Male</th>"+
+								// 				"<th>Female</th>"+
+								// 				"<th>Mastercard</th>"+
+								// 				"<th>International</th>"+
+								// 				"<th>Ghanaian</th>"+
+								// 				"<th>Total</th>"+
+								// 			"</tr>"+
+								// 		"</thead>"+
+							
+								// 		"<tbody style='text-align:center;'>";
+										
+								// 		//inner for loop here
+
+
+	  				 // 					bufferTables += "</tbody></table>";
+  				 	// 			}
+
+  				 				// bufferTables += "<h4 class='span3 fg-color-black border-color-green' style='padding:10px;'>Faculty And Staff</h4>"+
+  				 				// 				"<table><thead><tr><th>Male</th><th>Female</th></tr></thead>"+
+  				 				// 				"<tbody style='text-align:center;'>"+
+  				 				// 				"<tr><td>"+varJson.countBasedOnYeargroup[0].maleFaculties+"</td><td>"+varJson.countBasedOnYeargroup[0].femaleFaculties+"</td></tr></tbody></table>";
